@@ -3,3 +3,7 @@ a, b = b, a
 
 # print N numbers Python One-Liner
 print(*range(N))
+
+# Fibonacci Python One-Liner
+fib = lambda x: x if x<2 else fib(x-1) + fib(x-2)
+
